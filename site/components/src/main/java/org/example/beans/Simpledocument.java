@@ -7,7 +7,7 @@ import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerat
 
 @HippoEssentialsGenerated(internalName = "myproject:sdocumenttype")
 @Node(jcrType = "myproject:sdocumenttype")
-public class Simpledocument extends HippoDocument {
+public class Simpledocument extends BaseDocument {
    @HippoEssentialsGenerated(internalName = "myproject:title")
     public String getTitle() {
         return getSingleProperty("myproject:title");
